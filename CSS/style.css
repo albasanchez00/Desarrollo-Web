@@ -1,0 +1,59 @@
+/* Inicio Estilos Generales */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial;
+}
+
+body {
+    font-size: 16px;
+    width: 100vw;
+    background-color: var(--color_fondo);
+}
+
+:root{
+    --altura_header:5rem;
+    --color_fondo: gainsboro;
+    --color_primario: #81766b;
+    --color_secundario: #59524a;
+    --color_blanco: white;
+    --padding_left_right: 20px;
+    --altura_footer:10rem;
+    --ancho_completo:100vw;
+}
+
+/* Fin Estilos Generales */
+
+/* Inicio Elementos Header */
+header{
+    width: var(--ancho_completo);
+    height: var(--altura_header);
+}
+
+.menu-nav{
+    width: 30%;
+    height: 100px;
+    li a{
+        color: black;
+    }
+}
+
+/* Fin Elementos Header */
+
+
+/* Inicio Elementos Body */
+.bloques-contenido{
+    width: 80%;
+}
+
+
+/* Fin Elementos Body */ 
+
+/* Inicio Elementos Footer */
+
+/* Fin Elementos Footer */
+
+
+
