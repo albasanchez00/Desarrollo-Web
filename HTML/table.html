@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas HTML</title>
+    <style>
+        table {
+            border: 1px solid black;
+
+        }
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <!-- Formatear codigo -> Alt + Mayus + F  -->
@@ -12,23 +21,32 @@
         <thead>
             <tr>
                 <th>Nombre</th>
-                <th>Sesión</th>
+                <th colspan="2">Sesión</th>
                 <th>Año de nacimiento</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th></th>
             </tr>
             <tbody>
                 <tr>
                     <td>Jonh Doe</td>
                     <td>Encabezados</td>
+                    <td>Grid</td>
                     <td>1995</td>
                 </tr>
                 <tr>
                     <td>Jane Doe</td>
                     <td>Tablas</td>
+                    <td>Borders</td>
                     <td>2000</td>
                 </tr>
                 <tr>
                     <td>Pepito Perez</td>
                     <td>Navegación</td>
+                    <td>Fonts</td>
                     <td>1986</td>
                 </tr>
             </tbody>
